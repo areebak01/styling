@@ -1,0 +1,27 @@
+/* ProductCard.module.css */
+.productCard {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .productCard:hover {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .price {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .rating {
+    font-size: 1rem;
+    color: #ffc107; /* Gold color for the stars */
+  }
+
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
